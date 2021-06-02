@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 100%;
+}
+h1, h2, h3{
+    color: brown;
+    padding-left: 20px;
+}
+/*Enlaces*/
+a:hover{
+    color: black;
+}
+a:link, a:visited{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+/*menu de navegacion*/
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+nav li {
+    display: inline;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    width: 16.6%;
+    text-align: center;
+}
+/* Estilos de la cabecera*/
+header{
+    height: 100px;
+    background-image: url(./images/coffee-beans.jpg);
+    margin-bottom: 70px;
+}
+header h1{
+    font-size: 50px;
+    color:rgba(255, 255, 255, .8);
+    margin-top: 30px;
+    margin-left: 30px;
+   }
+header nav a:link, header nav a:visited{
+  
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 10px 0;
+}
+header nav a:hover{ 
+    background-color: black;
+}
+   /* Estilos del pie*/ 
+footer nav a:link, footer nav a:visited{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    color: gray;
+   
+}
+footer nav a:hover{ 
+    color: black;
+}   
+
+/* viñetas*/
+ul li{
+    list-style: square outside url(./images/tiny-coffee-cup.gif);
+    
+}
+/*imagen del cafe que flote en el texto*/
+.foto-izq{
+    float: left;
+    margin-right: 20px;
+}
+.foto-der{
+    float: right;
+    margin-left: 20px;
+}
+/*bloques aside de texto o fotos en fondo salmon*/
+aside{
+    width: 280px;
+    background-color: sandybrown;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+p{
+    padding-left: 20px;
+    text-align: justify;
+}
+/*tabla de Drinks*/
+table{
+    border:1px, solid, black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+th, td{
+    border:1px, solid, black;
+    width: 20%;
+    padding: 5px;
+}
